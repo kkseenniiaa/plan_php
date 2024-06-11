@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.title {
+    background-color: rgb(45, 57, 45);
+    color: rgb(251, 244, 236);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(124, 154, 141);
+    padding: 30px 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__row {
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: 3px solid rgb(45, 57, 45);
+    background-color: rgb(45, 57, 45);
+    color: rgb(251, 244, 236);
+    padding: 10px 20px;
+    font-size: 18.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(124, 154, 141);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.task_info {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: rgb(251, 244, 236);
+    border-radius: 7px;
+    border: 2px solid rgb(45, 57, 45);
+    font-size: 17px;
+}
+
+.task_del {
+    border: 3px solid rgb(39, 14, 7);
+    background-color: rgb(39, 14, 7);
+    color: rgb(251, 240, 236);
+    padding: 10px 20px;
+    font-size: 18.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.task_del:hover {
+    background-color: rgb(101, 59, 42);
+}
